@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>JS user-defined functions in use</title>
+        <link rel="stylesheet" href="assets/mystyles.css">
+        <script src="assets/myJs.js"></script>
+    </head>
+
+    <body onload="getGreetings();">
+        <h1>JS user-defined functions in use</h1>
+        <div id="info"></div>
+        <table>
+            <form name="frmDetails">
+                <tr>
+                    <td><label for="firstName">First name</label></td>
+                    <td><input type="text"
+                               name="firstName"
+                               placeholder="Enter first name"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="lastName">Last name</label></td>
+                    <td><input type="text"
+                               name="lastName"
+                               placeholder="Enter last name"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="userEmail">Email address</label></td>
+                    <td><input type="email"
+                               name="userEmail" id="userEmail"
+                               placeholder="Enter email address"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="studyMode">Study mode</label></td>
+                    <td><input type="radio" name="studymode" id="studyMode" value="Full time">Full time
+                    <td><input type="radio" name="studymode" value="Part time">Part time    
+                    <td><input type="radio" name="studymode" value="Self paced">Self-paced     
+                </tr>
+
+                <tr>
+                    <td><label for="subject">Subject</label></td>
+                    <td><input type="checkbox" name="subjects" id="subjects" value="JavaScript">JavaScript
+                        <input type="checkbox" name="subjects" value="CSS">CSS   
+                        <input type="checkbox" name="subjects" value="PHP">PHP    
+                        <input type="checkbox" name="subjects" value="HTML">HTML  
+                        <input type="checkbox" name="subjects" value="MySQL">MySQL 
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" onclick="displayDetails();">
+                        <!-- event onclick is being handled using
+                             event handler - displayDetails. This is a JS function -->
+                    </td>
+                </tr>
+            
+
+            </form>
+        </table>
+    </body>
+
+</html>

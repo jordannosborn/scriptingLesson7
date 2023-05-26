@@ -1,0 +1,22 @@
+body {
+    background-image:url("../images/pinkFLowers.jpg");
+    background-repeat:repeat-y; 
+    margin-left:750px; 
+    background-color:beige; 
+    color:black; 
+}
+#info {
+    background-color: rgba(88, 82, 82, 0.781); 
+    color:beige; 
+    position:absolute; 
+    top:2px; 
+    right:2px; 
+    border:beige; 
+    text-align:center; 
+}
+#info:hover{
+    font-size:1.1em; 
+}
+h1{
+    text-align:center; 
+}
